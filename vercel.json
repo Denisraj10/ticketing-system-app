@@ -12,11 +12,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "env": {
-    "MONGO_URI": "@mongo_uri",
-    "JWT_SECRET": "@jwt_secret",
-    "JWT_EXPIRE": "7d",
-    "NODE_ENV": "production"
-  }
+  ]
 }
